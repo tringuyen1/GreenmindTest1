@@ -342,6 +342,10 @@
                }
           }
 
+          .swiper-wrapper{
+               width: 90% !important;
+          }
+
           .pagination {
                display: flex;
                justify-content: end;
