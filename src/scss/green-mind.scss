@@ -497,6 +497,28 @@
           .hero-sections {
                height: 644px !important;
           }
+
+          .wrapper-sidebar {
+
+               margin-top: 90px !important;
+
+               .box-comment {
+                    height: 494px !important;
+
+                    .box {
+                         .custom-img-start {
+                              top: 45px !important;
+                              right: 74px !important;
+                         }
+
+                         .point {
+                              top: 82px !important;
+                              position: absolute !important;
+                              left: 200px !important;
+                         }
+                    }
+               }
+          }
      }
 }
 
