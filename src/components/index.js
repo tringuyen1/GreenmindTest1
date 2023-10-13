@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -32,7 +32,7 @@ const GreenMind = () => {
                <Header></Header>
                <HeaderMenuMobile />
 
-               <div className="wrapper-green-mind">
+               <section className="wrapper-green-mind">
                     {/* <div className="container"> */}
                     <div className='container'>
                          <section className="hero-sections">
@@ -466,7 +466,7 @@ const GreenMind = () => {
                          </div>
                     </section>
                     {/* </div> */}
-               </div>
+               </section>
 
                <Footer></Footer>
           </div>
