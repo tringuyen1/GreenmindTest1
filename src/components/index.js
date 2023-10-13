@@ -25,6 +25,7 @@ import star from "../Images/Vector4.svg"
 import facebook from '../Images/Group 11.svg'
 import insta from '../Images/Group 12.svg'
 import linkedln from '../Images/Group 13.svg'
+import menu from "../Images/align-justify.svg"
 
 const GreenMind = () => {
      return (
@@ -64,6 +65,11 @@ const GreenMind = () => {
                                              <img className="" src={require('../Images/FilterRight.png')} alt=""></img>
                                         </li>
                                    </ul>
+                                   <ul className='menu-icon menu'>
+                                        <li>
+                                             <img className="" src={menu} alt=""></img>
+                                        </li>
+                                   </ul>
                               </div>
                          </div>
                     </div>
@@ -74,7 +80,7 @@ const GreenMind = () => {
                     <div className='container'>
                          <section className="hero-sections">
                               <div className="row">
-                                   <div className="col-4">
+                                   <div className="col-md-12 col-lg-4">
                                         <div className='hero-left'>
                                              <h1 className="title">Buy your dream plants</h1>
                                              <div className="row">
@@ -116,7 +122,7 @@ const GreenMind = () => {
                                         </div>
                                    </div>
 
-                                   <div className="col-8">
+                                   <div className="col-md-12 col-lg-8">
                                         <div className="hero-right">
                                              <img src={Vector1} className="vector-1" alt=""></img>
                                              <img src={unsplash} alt='' className='unsplash-img'></img>
@@ -136,7 +142,7 @@ const GreenMind = () => {
                     <section className="sale-sections mt-5">
                          <div className="container">
                               <div className="row">
-                                   <div className="col-3">
+                                   <div className="col-md-12 col-lg-3 mid-center">
                                         <h1 className="header">Best Selling Plants</h1>
                                         <p className="title">
                                              Easiest way to healthy life by buying your favorite plants
@@ -147,7 +153,7 @@ const GreenMind = () => {
                                         </button>
                                    </div>
 
-                                   <div className="col-3">
+                                   <div className="col-md-12 col-lg-3">
                                         <div className="card">
                                              <img className="" src={Image1} alt=""></img>
 
@@ -161,7 +167,7 @@ const GreenMind = () => {
                                         </div>
                                    </div>
 
-                                   <div className="col-3">
+                                   <div className="col-md-12 col-lg-3">
                                         <div className="card">
                                              <img className="" src={Image2} alt=""></img>
 
@@ -175,7 +181,7 @@ const GreenMind = () => {
                                         </div>
                                    </div>
 
-                                   <div className="col-3">
+                                   <div className="col-md-12 col-lg-3">
                                         <div className="card">
                                              <img className="" src={Image3} alt=""></img>
 
@@ -207,7 +213,7 @@ const GreenMind = () => {
 
                                    <div className="col-12 mt-5">
                                         <div className="row">
-                                             <div className="col-4">
+                                             <div className="col-md-12 col-lg-4">
                                                   <div className='box'>
                                                        <div className='img-header'>
                                                             <img className="" src={Vector3} alt=""></img>
@@ -223,7 +229,7 @@ const GreenMind = () => {
                                                   </div>
                                              </div>
 
-                                             <div className="col-4">
+                                             <div className="col-md-12 col-lg-4">
                                                   <div className='box'>
                                                        <div className='img-header'>
                                                             <img className="" src={Vector4} alt=""></img>
@@ -240,7 +246,7 @@ const GreenMind = () => {
 
                                              </div>
 
-                                             <div className="col-4">
+                                             <div className="col-md-12 col-lg-4">
                                                   <div className='box'>
                                                        <div className='img-header'>
                                                             <img className="" src={Vector5} alt=""></img>
@@ -277,7 +283,7 @@ const GreenMind = () => {
                               <div className="col">
                                    <div className="categories-detail mt-5">
                                         <div className="row">
-                                             <div className="col-4">
+                                             <div className="col-md-12 col-lg-4">
                                                   <div className='box-middle custom-margin-bottom'>
                                                        <img className="" src={Frame1} alt=""></img>
                                                        <h3 className="header">
@@ -287,7 +293,7 @@ const GreenMind = () => {
 
                                              </div>
 
-                                             <div className="col-4">
+                                             <div className="col-md-12 col-lg-4">
                                                   <div className='box-middle custom-margin-top'>
                                                        <img className="" src={Frame2} alt=""></img>
                                                        <h3 className="header">
@@ -304,8 +310,8 @@ const GreenMind = () => {
                                                   </div>
                                              </div>
 
-                                             <div className="col-4">
-                                                  <div className='box-middle custom-margin-bottom'>
+                                             <div className="col-md-12 col-lg-4">
+                                                  <div className='box-middle custom-margin-bottom-last'>
                                                        <img className="" src={Frame3} alt=""></img>
                                                        <h3 className="header">
                                                             Natural Plants
@@ -375,7 +381,7 @@ const GreenMind = () => {
                                                                  </div>
                                                                  <div className='box-cus ml-auto'>
                                                                       <img src={star} alt='' className='custom-img-start'></img>
-                                                                      <h3 className='mt-5'>
+                                                                      <h3 className='point mt-5'>
                                                                            4.5
                                                                       </h3>
                                                                  </div>
@@ -413,7 +419,43 @@ const GreenMind = () => {
                                                                  </div>
                                                                  <div className='box-cus ml-auto'>
                                                                       <img src={star} alt='' className='custom-img-start'></img>
-                                                                      <h3 className='mt-5'>
+                                                                      <h3 className='point mt-5'>
+                                                                           4.5
+                                                                      </h3>
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                  </div>
+                                             </div>
+
+                                        </SwiperSlide>
+                                        <SwiperSlide>
+                                             <div className='box-comment'>
+                                                  <div className='row'>
+                                                       <div className='col-12'>
+                                                            <p className='comment'>
+                                                                 Jorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.
+                                                                 Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                                                            </p>
+                                                       </div>
+                                                       <div className='col-12'>
+                                                            <div className='box'>
+
+                                                                 <div className='box-cus'>
+                                                                      <img src={customer} alt='' className='custom-img'></img>
+                                                                      <div className='customer mt-5'>
+                                                                           <h3 className='name'>
+                                                                                John Doe
+                                                                           </h3>
+
+                                                                           <p className='job'>
+                                                                                Youtuber
+                                                                           </p>
+                                                                      </div>
+                                                                 </div>
+                                                                 <div className='box-cus ml-auto'>
+                                                                      <img src={star} alt='' className='custom-img-start'></img>
+                                                                      <h3 className='point mt-5'>
                                                                            4.5
                                                                       </h3>
                                                                  </div>
@@ -451,45 +493,7 @@ const GreenMind = () => {
                                                                  </div>
                                                                  <div className='box-cus ml-auto'>
                                                                       <img src={star} alt='' className='custom-img-start'></img>
-                                                                      <h3 className='mt-5'>
-                                                                           4.5
-                                                                      </h3>
-                                                                 </div>
-                                                            </div>
-
-
-                                                       </div>
-                                                  </div>
-                                             </div>
-
-                                        </SwiperSlide>
-                                        <SwiperSlide>
-                                             <div className='box-comment'>
-                                                  <div className='row'>
-                                                       <div className='col-12'>
-                                                            <p className='comment'>
-                                                                 Jorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.
-                                                                 Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-                                                            </p>
-                                                       </div>
-                                                       <div className='col-12'>
-                                                            <div className='box'>
-
-                                                                 <div className='box-cus'>
-                                                                      <img src={customer} alt='' className='custom-img'></img>
-                                                                      <div className='customer mt-5'>
-                                                                           <h3 className='name'>
-                                                                                John Doe
-                                                                           </h3>
-
-                                                                           <p className='job'>
-                                                                                Youtuber
-                                                                           </p>
-                                                                      </div>
-                                                                 </div>
-                                                                 <div className='box-cus ml-auto'>
-                                                                      <img src={star} alt='' className='custom-img-start'></img>
-                                                                      <h3 className='mt-5'>
+                                                                      <h3 className='point mt-5'>
                                                                            4.5
                                                                       </h3>
                                                                  </div>
@@ -513,7 +517,7 @@ const GreenMind = () => {
                     <div className="container">
                          <div className="link-contact pt-4 pb-4">
                               <div className="row d-flex justify-content-between">
-                                   <div className="col-6">
+                                   <div className="col-md-12 col-lg-6 mid-center">
                                         <div className="link">
                                              <img src={ImageGreenMind} alt="" className='img-green-mind'></img>
 
@@ -529,7 +533,7 @@ const GreenMind = () => {
                                         </div>
                                    </div>
 
-                                   <div className="col-6 ml-auto">
+                                   <div className="col-md-12 col-lg-6 ml-auto mid-center">
                                         <div className='menu-link'>
                                              <ul>
                                                   <li className='header'>
