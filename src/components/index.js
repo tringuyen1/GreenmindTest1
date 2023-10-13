@@ -4,7 +4,6 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import '../scss/green-mind.scss'
-import ImageGreenMind from '../Images/GREENMIND.svg'
 import unsplash from '../Images/unsplash_cLaaxa4DSnc-removebg-preview 1.svg';
 import vector from "../Images/Vector.svg";
 import Vector1 from '../Images/Vector 186.svg';
@@ -22,114 +21,16 @@ import Frame2 from "../Images/Frame 38.svg"
 import Frame3 from "../Images/Frame 37.svg"
 import customer from "../Images/Group 9.svg"
 import star from "../Images/Vector4.svg"
-import facebook from '../Images/Group 11.svg'
-import insta from '../Images/Group 12.svg'
-import linkedln from '../Images/Group 13.svg'
-import menu from "../Images/align-justify.svg"
-import x from "../Images/x.svg"
+import HeaderMenuMobile from './header-menu-mobile';
+import Header from './header';
+import Footer from './footer';
 
 const GreenMind = () => {
-     const [showIcon, setShowIcon] = useState(false);
-
-     const handleShowMenu = () => {
-          var x = document.getElementById("myLinks");
-          if (x.style.display === "block") {
-               x.style.display = "none";
-               setShowIcon(false);
-          } else {
-               x.style.display = "block";
-               setShowIcon(true);
-          }
-     }
 
      return (
           <div className="green-mind">
-               <section className="header-menu mt-4">
-                    <div className="container">
-                         <div className="row">
-                              <div className="col">
-                                   <div className='menu-link'>
-                                        <img src={ImageGreenMind} alt="" className='img-green-mind mt-1'></img>
-                                        <ul className="link">
-                                             <li>
-                                                  <a href="/" className="" alt="">Home</a>
-                                             </li>
-                                             <li>
-                                                  <a href="/" className="" alt="">Product</a>
-                                             </li>
-                                             <li>
-                                                  <a href="/" className="" alt="">Contact</a>
-                                             </li>
-                                        </ul>
-                                   </div>
-                              </div>
-
-                              <div className="col d-flex">
-                                   <ul className='menu-icon'>
-                                        <li>
-                                             <img className="" src={require('../Images/Cart.png')} alt=""></img>
-                                        </li>
-                                        <li>
-                                             <img className="" src={require('../Images/Person.png')} alt=""></img>
-                                        </li>
-                                        <li>
-                                             <img className="" src={require('../Images/Line 1.png')} alt=""></img>
-                                        </li>
-                                        <li>
-                                             <img className="" src={require('../Images/FilterRight.png')} alt=""></img>
-                                        </li>
-                                   </ul>
-                              </div>
-                         </div>
-                    </div>
-               </section>
-
-               <section className='header-menu-mobile'>
-                    <div className='container'>
-                         <div className='row'>
-                              <div className='col'>
-                                   <div className='menu'>
-                                        <div class="topnav">
-                                             <img src={ImageGreenMind} alt="" className='img-green-mind mt-1 active'></img>
-                                             <a href="javascript:void(0);" class="icon" onClick={() => handleShowMenu()}>
-                                                  {
-                                                       !showIcon ? (<img className="" src={menu} alt=""></img>) : (<img className="" src={x} alt=""></img>)
-                                                  }
-
-                                             </a>
-                                        </div>
-                                        <div id="myLinks">
-                                             <ul className="link">
-                                                  <li>
-                                                       <a href="/" className="" alt="">Home</a>
-                                                  </li>
-                                                  <li>
-                                                       <a href="/" className="" alt="">Product</a>
-                                                  </li>
-                                                  <li>
-                                                       <a href="/" className="" alt="">Contact</a>
-                                                  </li>
-                                             </ul>
-                                             <ul className='menu-icon'>
-                                                  <li>
-                                                       <img className="" src={require('../Images/Cart.png')} alt=""></img>
-                                                  </li>
-                                                  <li>
-                                                       <img className="" src={require('../Images/Person.png')} alt=""></img>
-                                                  </li>
-                                                  <li>
-                                                       <img className="" src={require('../Images/Line 1.png')} alt=""></img>
-                                                  </li>
-                                                  <li>
-                                                       <img className="" src={require('../Images/FilterRight.png')} alt=""></img>
-                                                  </li>
-                                             </ul>
-                                        </div>
-                                   </div>
-                              </div>
-                         </div>
-                    </div>
-               </section>
+               <Header></Header>
+               <HeaderMenuMobile />
 
                <div className="wrapper-green-mind">
                     {/* <div className="container"> */}
@@ -192,8 +93,6 @@ const GreenMind = () => {
                               </div>
                          </section>
                     </div>
-
-
 
                     <section className="sale-sections mt-5">
                          <div className="container">
@@ -569,81 +468,7 @@ const GreenMind = () => {
                     {/* </div> */}
                </div>
 
-               <section className="footer mt-5">
-                    <div className="container">
-                         <div className="link-contact pt-4 pb-4">
-                              <div className="row d-flex justify-content-between">
-                                   <div className="col-md-12 col-lg-6 mid-center">
-                                        <div className="link">
-                                             <img src={ImageGreenMind} alt="" className='img-green-mind'></img>
-
-                                             <p className="title mt-4">
-                                                  We help you find your dream plant
-                                             </p>
-
-                                             <div className="link-detail mt-4">
-                                                  <img className="fb pr-3" src={facebook} alt=""></img>
-                                                  <img className="inst pr-3" src={insta} alt=""></img>
-                                                  <img className="linkedln pr-3" src={linkedln} alt=""></img>
-                                             </div>
-                                        </div>
-                                   </div>
-
-                                   <div className="col-md-12 col-lg-6 ml-auto mid-center">
-                                        <div className='menu-link'>
-                                             <ul>
-                                                  <li className='header'>
-                                                       <h3>Information</h3>
-                                                  </li>
-                                                  <li className='pt-2'>
-                                                       <a href="/" className="" alt="">About</a>
-                                                  </li>
-                                                  <li className='pt-3'>
-                                                       <a href="/" className="" alt="">Product</a>
-                                                  </li>
-                                                  <li className='pt-3'>
-                                                       <a href="/" className="" alt="">Blog</a>
-                                                  </li>
-                                             </ul>
-                                             <ul>
-                                                  <li className='header'>
-                                                       <h3>Company</h3>
-                                                  </li>
-                                                  <li className='pt-2'>
-                                                       <a href="/" className="" alt="">Community</a>
-                                                  </li>
-                                                  <li className='pt-3'>
-                                                       <a href="/" className="" alt="">Career</a>
-                                                  </li>
-                                                  <li className='pt-3'>
-                                                       <a href="/" className="" alt="">Our story</a>
-                                                  </li>
-                                             </ul>
-                                             <ul>
-                                                  <li className='header'>
-                                                       <h3>Contact</h3>
-                                                  </li>
-                                                  <li className='pt-2'>
-                                                       <a href="/" className="" alt="">Getting Started</a>
-                                                  </li>
-                                                  <li className='pt-3'>
-                                                       <a href="/" className="" alt="">Pricing</a>
-                                                  </li>
-                                                  <li className='pt-3'>
-                                                       <a href="/" className="" alt="">Resources</a>
-                                                  </li>
-                                             </ul>
-                                        </div>
-                                   </div>
-                              </div>
-                         </div>
-
-                         <p className="note mt-5 pb-4">
-                              2023 all Right Reserved Term of use GREENMIND
-                         </p>
-
-                    </div>
-               </section>
+               <Footer></Footer>
           </div>
      )
 }

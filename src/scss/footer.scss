@@ -1,0 +1,82 @@
+.green-mind {
+    .footer {
+        background-color: #C1DCDC;
+
+        .link-contact {
+            .img-green-mind {
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 29px;
+            }
+
+            .title {
+                font-family: "Poppins";
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 27px;
+                color: #1E1E1E80;
+            }
+        }
+
+        .menu-link {
+            display: flex;
+            flex-direction: row;
+            justify-content: end;
+
+            ul li {
+                list-style: none;
+
+                a {
+                    font-family: "Poppins";
+                    font-weight: 400;
+                    font-style: 18px;
+                    line-height: 27px;
+                    color: #1E1E1E80;
+
+
+                    &:hover {
+                        text-decoration: none;
+                        color: black;
+                    }
+                }
+            }
+
+
+
+            h3 {
+                font-family: "Poppins";
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 27px;
+            }
+        }
+
+        .note {
+            font-family: "Poppins";
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 27px;
+            color: #1E1E1E80;
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .green-mind {
+        .footer {
+            .menu-link {
+                justify-content: center !important;
+            }
+
+            .link-contact {
+                padding-bottom: 0px !important;
+            }
+
+            .note {
+                margin-top: 0px !important;
+                text-align: center;
+            }
+        }
+    }
+
+}
