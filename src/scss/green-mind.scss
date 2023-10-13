@@ -15,7 +15,7 @@
                height: 465px;
 
                .hero-left {
-                    padding: 35px 20px 20px 0px;
+                    padding: 35px 20px 20px 53px;
 
                     .title {
                          color: black;
@@ -79,9 +79,11 @@
                }
 
                .hero-right {
-                    position: relative;
-                    top: 115px;
-                    left: 47px;
+                    .image {
+                         width: 100%;
+                         margin-left: -36px;
+                         margin-top: 30px;
+                    }
 
                     .unsplash {
                          display: flex;
@@ -285,9 +287,10 @@
      }
 
      .wrapper-sidebar {
-          .sidebar{
+          .sidebar {
                margin-left: 20%;
           }
+
           .box-comment {
                background-color: #C1DCDC;
                width: 800px;
@@ -342,7 +345,7 @@
                }
           }
 
-          .swiper-wrapper{
+          .swiper-wrapper {
                width: 90% !important;
           }
 
@@ -411,7 +414,7 @@
 @media screen and (max-width: 1000px) {
      .green-mind {
           .hero-sections {
-               height: 769px !important;
+               height: 715px !important;
 
                .hero-left {
                     display: flex;
@@ -430,21 +433,10 @@
                }
 
                .hero-right {
-                    top: 50px !important;
-                    left: -130px !important;
-
-                    .unsplash-img {
-                         left: 320px !important;
-                    }
-
-                    .vector-1 {
-                         top: -25px !important;
-                         left: 186px !important;
-                    }
-
-                    .vector-2 {
-                         top: -53px !important;
-                         left: 690px !important;
+                    .image {
+                         margin-left: 122px !important;
+                         margin-top: -13px !important;
+                         width: 67% !important;
                     }
                }
           }

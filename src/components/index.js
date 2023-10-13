@@ -4,21 +4,18 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import '../scss/green-mind.scss'
-import unsplash from '../Images/unsplash_cLaaxa4DSnc-removebg-preview 1.svg';
 import vector from "../Images/Vector.svg";
-import Vector1 from '../Images/Vector 186.svg';
-import Vector2 from '../Images/Vector 187.svg';
 import line from "../Images/Line 2.svg";
-import Rectangle from "../Images/Rectangle 2.svg";
-import Image1 from "../Images/Frame 9.svg";
-import Image2 from "../Images/Frame 8.svg";
-import Image3 from "../Images/Frame 7.svg";
+import Rectangle from "../Images/Screenshot 2023-10-13 193053.png";
+import Image1 from "../Images/Frame 9.png";
+import Image2 from "../Images/Frame 8.png";
+import Image3 from "../Images/Frame 7.png";
 import Vector3 from "../Images/Vector3.svg";
 import Vector4 from "../Images/Vector (1).svg";
 import Vector5 from "../Images/Vector (2).svg";
-import Frame1 from "../Images/Frame 36.svg"
-import Frame2 from "../Images/Frame 38.svg"
-import Frame3 from "../Images/Frame 37.svg"
+import Frame1 from "../Images/Frame 36.png"
+import Frame2 from "../Images/Frame 38.png"
+import Frame3 from "../Images/Frame 37.png"
 import customer from "../Images/Group 9.svg"
 import star from "../Images/Vector4.svg"
 import HeaderMenuMobile from './header-menu-mobile';
@@ -37,7 +34,7 @@ const GreenMind = () => {
                     <div className='container'>
                          <section className="hero-sections">
                               <div className="row">
-                                   <div className="col-md-12 col-lg-4">
+                                   <div className="col-md-12 col-lg-6">
                                         <div className='hero-left'>
                                              <h1 className="title">Buy your dream plants</h1>
                                              <div className="row">
@@ -79,15 +76,9 @@ const GreenMind = () => {
                                         </div>
                                    </div>
 
-                                   <div className="col-md-12 col-lg-8">
+                                   <div className="col-md-12 col-lg-6">
                                         <div className="hero-right">
-                                             <img src={Vector1} className="vector-1" alt=""></img>
-                                             <img src={unsplash} alt='' className='unsplash-img'></img>
-                                             <div className="unsplash">
-                                                  <img src={Rectangle} className="rectangle-img" alt=""></img>
-                                             </div>
-
-                                             <img className="vector-2" src={Vector2} alt=""></img>
+                                             <img src={Rectangle} className="image" alt=""></img>
                                         </div>
                                    </div>
                               </div>
