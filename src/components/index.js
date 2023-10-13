@@ -282,18 +282,20 @@ const GreenMind = () => {
                     </section>
 
                     <section className='wrapper-sidebar mt-5'>
-                         <div className='container position-ralative'>
+                         <div className='sidebar position-ralative'>
                               <div className='header-customers'>
-                                   <div className='row'>
-                                        <div className='col'>
-                                             <h3 className='header-comment'>
-                                                  What customers say about GREENMIND?
-                                             </h3>
-                                        </div>
+                                   <div className='container ml-0'>
+                                        <div className='row'>
+                                             <div className='col p-0'>
+                                                  <h3 className='header-comment'>
+                                                       What customers say about GREENMIND?
+                                                  </h3>
+                                             </div>
 
-                                        <div className='col'>
-                                             <div className='icon-srcoll'>
-                                                  <div className="pagination mt-3"></div>
+                                             <div className='col'>
+                                                  <div className='icon-srcoll'>
+                                                       <div className="pagination mt-3"></div>
+                                                  </div>
                                              </div>
                                         </div>
                                    </div>
