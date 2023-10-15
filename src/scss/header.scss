@@ -1,193 +1,193 @@
 .green-mind {
-    .header-menu {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+	.header-menu {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
 
-        ul li {
-            list-style: none;
-        }
+		ul li {
+			list-style: none;
+		}
 
-        .menu-link {
+		.menu-link {
 
-            display: flex;
-            flex-direction: row;
+			display: flex;
+			flex-direction: row;
 
-            .link {
-                display: flex;
-                flex-direction: row;
+			.link {
+				display: flex;
+				flex-direction: row;
 
-                li {
-                    margin: 10px 20px;
+				li {
+					margin: 10px 20px;
 
-                    a {
-                        font-size: 18px;
-                        font-family: "Poppins";
-                        font-weight: 500;
-                        line-height: 27px;
-                        color: #1E1E1E80;
+					a {
+						font-size: 18px;
+						font-family: "Poppins";
+						font-weight: 500;
+						line-height: 27px;
+						color: #1E1E1E80;
 
-                        &:hover {
-                            text-decoration: none;
-                            color: black;
-                        }
-                    }
-                }
-            }
+						&:hover {
+							text-decoration: none;
+							color: black;
+						}
+					}
+				}
+			}
 
-            .img-green-mind {
-                height: 39px;
-                width: 142px;
-                font-weight: 400;
-                letter-spacing: 0;
-                line-height: normal;
-                font-size: 12px;
-            }
+			.img-green-mind {
+				height: 39px;
+				width: 142px;
+				font-weight: 400;
+				letter-spacing: 0;
+				line-height: normal;
+				font-size: 12px;
+			}
 
-        }
+		}
 
-        .menu-icon {
-            display: flex;
-            flex-direction: row;
-            margin-left: auto;
+		.menu-icon {
+			display: flex;
+			flex-direction: row;
+			margin-left: auto;
 
-            li {
-                margin: 15px 20px;
+			li {
+				margin: 15px 20px;
 
-                img {
-                    cursor: pointer;
-                }
-            }
-        }
+				img {
+					cursor: pointer;
+				}
+			}
+		}
 
-    }
+	}
 
-    .header-menu-mobile {
-        display: none;
+	.header-menu-mobile {
+		display: none;
 
-        .menu {
+		.menu {
 
-            .link {
-                padding: 0;
-                text-align: center;
+			.link {
+				padding: 0;
+				text-align: center;
 
-                li {
-                    list-style: none;
-                    border-top: 1px solid #f0f3f5;
-                }
-            }
+				li {
+					list-style: none;
+					border-top: 1px solid #f0f3f5;
+				}
+			}
 
-            .menu-icon {
-                display: flex;
-                flex-direction: row;
-                margin-left: auto;
-                justify-content: center;
+			.menu-icon {
+				display: flex;
+				flex-direction: row;
+				margin-left: auto;
+				justify-content: center;
 
-                li {
-                    list-style: none;
-                    margin: 15px 20px;
+				li {
+					list-style: none;
+					margin: 15px 20px;
 
-                    img {
-                        cursor: pointer;
-                    }
-                }
-            }
+					img {
+						cursor: pointer;
+					}
+				}
+			}
 
-            .topnav {
-                overflow: hidden;
-                background-color: white;
-                position: relative;
-            }
+			.topnav {
+				overflow: hidden;
+				background-color: white;
+				position: relative;
+			}
 
-            #myLinks {
-                display: none;
-            }
+			#myLinks {
+				display: none;
+			}
 
-            a {
-                color: white;
-                padding: 14px 16px;
-                text-decoration: none;
-                display: block;
-                font-family: "Poppins";
-                font-weight: 500;
-                line-height: 27px;
-                color: #1E1E1E80;
+			a {
+				color: white;
+				padding: 14px 16px;
+				text-decoration: none;
+				display: block;
+				font-family: "Poppins";
+				font-weight: 500;
+				line-height: 27px;
+				color: #1E1E1E80;
 
-                &:hover {
-                    text-decoration: none;
-                    color: black !important;
-                }
-            }
+				&:hover {
+					text-decoration: none;
+					color: black !important;
+				}
+			}
 
-            // .topnav a.icon {
-            //      // background: black;
-            //      display: block;
-            //      position: absolute;
-            //      right: 0;
-            //      top: 0;
-            // }
+			// .topnav a.icon {
+			//      // background: black;
+			//      display: block;
+			//      position: absolute;
+			//      right: 0;
+			//      top: 0;
+			// }
 
-            .topnav a:hover {
-                // background-color: #ddd;
-                color: black;
-            }
+			.topnav a:hover {
+				// background-color: #ddd;
+				color: black;
+			}
 
-            .active {
-                // background-color: #04AA6D;
-                color: white;
-            }
-        }
-    }
+			.active {
+				// background-color: #04AA6D;
+				color: white;
+			}
+		}
+	}
 }
 
 @media screen and (max-width: 1000px) {
-    .green-mind {
-        .header-menu {
+	.green-mind {
+		.header-menu {
 
-            justify-content: center;
-            display: none;
+			justify-content: center;
+			display: none;
 
-            .menu-link {
-                .link {
-                    display: none;
-                }
-            }
+			.menu-link {
+				.link {
+					display: none;
+				}
+			}
 
-            .menu-icon {
-                display: none;
-            }
-        }
+			.menu-icon {
+				display: none;
+			}
+		}
 
-        .header-menu-mobile {
-            display: block;
+		.header-menu-mobile {
+			display: block;
 
-            .menu {
-                .topnav {
-                    display: flex;
-                    flex-direction: row;
-                    justify-content: space-between;
-                }
+			.menu {
+				.topnav {
+					display: flex;
+					flex-direction: row;
+					justify-content: space-between;
+				}
 
-                #myLinks {
-                    transition: all .3s linear;
-                    position: absolute;
-                    background: white;
-                    z-index: 1000;
-                    width: 100%;
-                }
-            }
-        }
-    }
+				#myLinks {
+					transition: all .3s linear;
+					position: absolute;
+					background: white;
+					z-index: 1000;
+					width: 100%;
+				}
+			}
+		}
+	}
 }
 
 @media screen and (max-width: 875px) {
-    .green-mind {
-        .header-menu {
-            .menu-link {
-                .link {
-                    display: none;
-                }
-            }
-        }
-    }
+	.green-mind {
+		.header-menu {
+			.menu-link {
+				.link {
+					display: none;
+				}
+			}
+		}
+	}
 }
