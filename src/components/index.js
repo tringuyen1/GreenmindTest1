@@ -34,11 +34,11 @@ const GreenMind = () => {
                     <div className='container'>
                          <section className="hero-sections">
                               <div className="row">
-                                   <div className="col-md-12 col-lg-6">
+                                   <div className="col-md-12 col-lg-12 col-xl-6">
                                         <div className='hero-left'>
                                              <h1 className="title">Buy your dream plants</h1>
                                              <div className="row">
-                                                  <div className="col-4">
+                                                  <div className="col-md-6 col-lg-6 col-xl-4">
                                                        <div className='content'>
                                                             <div className="text">
                                                                  50+
@@ -51,7 +51,7 @@ const GreenMind = () => {
 
                                                   <img className="" src={line} alt=""></img>
 
-                                                  <div className="col-4">
+                                                  <div className="col-md-6 col-lg-6 col-xl-4">
                                                        <div className='content'>
                                                             <div className="text">
                                                                  50+

@@ -1,0 +1,55 @@
+.sale-sections {
+
+     .header {
+          font-family: "Poppins";
+          letter-spacing: 0;
+          line-height: 48px;
+          font-size: 32px;
+          font-weight: 700;
+
+     }
+
+
+     .title,
+     .price-card {
+          font-family: "Poppins";
+          letter-spacing: 0;
+          line-height: normal;
+          font-size: 18px;
+          color: #1E1E1E80;
+          font-weight: 500;
+     }
+
+     .card {
+          border: none;
+
+          .header-card {
+               margin-top: 15px;
+               font-family: "Poppins";
+               letter-spacing: 0;
+               line-height: normal;
+               font-size: 18px;
+               font-weight: 500;
+          }
+     }
+
+     .see-more {
+          padding: 12px 24px;
+          background-color: #C1DCDC;
+          border: #C1DCDC;
+          border-radius: 8px;
+          gap: 10px;
+          text-align: center;
+     }
+}
+
+@media screen and (max-width:1200px) {
+     .sale-sections {
+          .card {
+               text-align: center;
+               margin-left: auto;
+               margin-right: auto;
+               width: 50%;
+          }
+     }
+}

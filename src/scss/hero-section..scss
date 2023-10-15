@@ -1,0 +1,142 @@
+.hero-sections {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     background-color: #C1DCDC;
+     height: 465px;
+
+     .hero-left {
+          padding: 35px 20px 20px 53px;
+
+          .title {
+               color: black;
+               font-weight: 800;
+               letter-spacing: 0;
+               line-height: 64px;
+               width: 512px;
+               font-family: "Poppins";
+               font-size: 64px;
+          }
+
+          .text {
+               font-family: "Poppins";
+               font-weight: 500;
+               font-size: 32px;
+               line-height: 48px;
+               margin-top: 20px;
+          }
+
+          .plant {
+               font-family: "Poppins";
+               font-weight: 500;
+               font-size: 18px;
+               line-height: 27px;
+          }
+
+          input {
+               background-color: white;
+               border: white;
+               align-items: center;
+               border-radius: 12px;
+               height: 50px;
+               overflow: hidden;
+               padding: 0 14px;
+               width: 449px;
+               margin-top: 20px;
+          }
+
+          .vector-wrapper {
+               position: relative;
+
+               .vector-img {
+
+                    background-color: #C1DCDC;
+                    border-radius: 12px;
+                    height: 37px;
+                    left: 390px;
+                    top: 26px;
+                    min-width: 48px;
+                    padding: 6px 14px;
+                    position: absolute;
+
+                    .vector-img {
+                         height: 20px;
+                         width: 20px;
+                         text-align: center;
+                    }
+
+               }
+          }
+     }
+
+     .hero-right {
+          .image {
+               width: 100%;
+               margin-left: -36px;
+               margin-top: 30px;
+          }
+
+          .unsplash {
+               display: flex;
+
+               .rectangle-img {
+                    margin-left: auto;
+                    margin-left: auto;
+                    height: 350px
+               }
+          }
+
+          .unsplash-img {
+               position: absolute;
+               top: -105px;
+               left: 250px;
+               height: 455px;
+          }
+     }
+
+     .vector-1 {
+          position: absolute;
+          top: 159px;
+          width: 131px;
+          left: 83px;
+     }
+
+     .vector-2 {
+          position: absolute;
+          top: -95px;
+          left: 577px;
+          height: 150px;
+     }
+}
+
+
+@media screen and (max-width: 1200px) {
+     .hero-sections {
+          height: 100% !important;
+          
+          .hero-left {
+               display: flex;
+               flex-direction: column;
+               align-items: center;
+               padding: 20px !important;
+
+               .row {
+                    justify-content: center;
+               }
+
+               h1 {
+                    text-align: center;
+               }
+
+          }
+
+          .hero-right {
+               display: none;
+               .image {
+                    margin-left: 122px !important;
+                    margin-top: -13px !important;
+                    width: 67% !important;
+               }
+          }
+     }
+}
