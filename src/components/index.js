@@ -38,7 +38,7 @@ const GreenMind = () => {
                                         <div className='hero-left'>
                                              <h1 className="title">Buy your dream plants</h1>
                                              <div className="row">
-                                                  <div className="col-md-6 col-lg-6 col-xl-4">
+                                                  <div className="col-4">
                                                        <div className='content'>
                                                             <div className="text">
                                                                  50+
@@ -48,10 +48,10 @@ const GreenMind = () => {
                                                             </div>
                                                        </div>
                                                   </div>
-
+                                                  
                                                   <img className="" src={line} alt=""></img>
 
-                                                  <div className="col-md-6 col-lg-6 col-xl-4">
+                                                  <div className="col-4">
                                                        <div className='content'>
                                                             <div className="text">
                                                                  50+
