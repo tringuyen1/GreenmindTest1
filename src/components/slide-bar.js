@@ -5,7 +5,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 import customer from "../Images/Group 9.svg"
-import star from "../Images/Vector4.svg"
+import star from "../Images/StarFill.svg"
 const SlideBar = () => {
 	return (
 		<section className='wrapper-sidebar mt-5'>
@@ -50,62 +50,27 @@ const SlideBar = () => {
 									</div>
 									<div className='col-12'>
 										<div className='box'>
-
-											<div className='box-cus'>
+											<div className='col-md-6 col-lg-6 col-xl-2'>
 												<img src={customer} alt='' className='custom-img'></img>
-												<div className='customer mt-5'>
-													<h3 className='name'>
-														John Doe
-													</h3>
+											</div>
+											<div className='col-md-6 col-lg-6 col-xl-10'>
+												<div className='customer-detail'>
+													<div className='customer mt-5'>
+														<h3 className='name'>
+															John Doe
+														</h3>
 
-													<p className='job'>
-														Youtuber
-													</p>
+														<p className='job'>
+															Youtuber
+														</p>
+													</div>
+													<div className='d-flex flex-lg-row star'>
+														<img src={star} alt='' className='custom-img-start'></img>
+														<h3 className='point'>
+															4.5
+														</h3>
+													</div>
 												</div>
-											</div>
-											<div className='box-cus ml-auto'>
-												<img src={star} alt='' className='custom-img-start'></img>
-												<h3 className='point mt-5'>
-													4.5
-												</h3>
-											</div>
-										</div>
-
-
-									</div>
-								</div>
-							</div>
-
-						</SwiperSlide>
-						<SwiperSlide>
-							<div className='box-comment'>
-								<div className='row'>
-									<div className='col-12'>
-										<p className='comment'>
-											Jorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.
-											Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-										</p>
-									</div>
-									<div className='col-12'>
-										<div className='box'>
-
-											<div className='box-cus'>
-												<img src={customer} alt='' className='custom-img'></img>
-												<div className='customer mt-5'>
-													<h3 className='name'>
-														John Doe
-													</h3>
-
-													<p className='job'>
-														Youtuber
-													</p>
-												</div>
-											</div>
-											<div className='box-cus ml-auto'>
-												<img src={star} alt='' className='custom-img-start'></img>
-												<h3 className='point mt-5'>
-													4.5
-												</h3>
 											</div>
 										</div>
 									</div>
@@ -124,28 +89,29 @@ const SlideBar = () => {
 									</div>
 									<div className='col-12'>
 										<div className='box'>
-
-											<div className='box-cus'>
+											<div className='col-md-6 col-lg-6 col-xl-2'>
 												<img src={customer} alt='' className='custom-img'></img>
-												<div className='customer mt-5'>
-													<h3 className='name'>
-														John Doe
-													</h3>
+											</div>
+											<div className='col-md-6 col-lg-6 col-xl-10'>
+												<div className='customer-detail'>
+													<div className='customer mt-5'>
+														<h3 className='name'>
+															John Doe
+														</h3>
 
-													<p className='job'>
-														Youtuber
-													</p>
+														<p className='job'>
+															Youtuber
+														</p>
+													</div>
+													<div className='d-flex flex-lg-row star'>
+														<img src={star} alt='' className='custom-img-start'></img>
+														<h3 className='point'>
+															4.5
+														</h3>
+													</div>
 												</div>
 											</div>
-											<div className='box-cus ml-auto'>
-												<img src={star} alt='' className='custom-img-start'></img>
-												<h3 className='point mt-5'>
-													4.5
-												</h3>
-											</div>
 										</div>
-
-
 									</div>
 								</div>
 							</div>
@@ -162,28 +128,68 @@ const SlideBar = () => {
 									</div>
 									<div className='col-12'>
 										<div className='box'>
-
-											<div className='box-cus'>
+											<div className='col-md-6 col-lg-6 col-xl-2'>
 												<img src={customer} alt='' className='custom-img'></img>
-												<div className='customer mt-5'>
-													<h3 className='name'>
-														John Doe
-													</h3>
+											</div>
+											<div className='col-md-6 col-lg-6 col-xl-10'>
+												<div className='customer-detail'>
+													<div className='customer mt-5'>
+														<h3 className='name'>
+															John Doe
+														</h3>
 
-													<p className='job'>
-														Youtuber
-													</p>
+														<p className='job'>
+															Youtuber
+														</p>
+													</div>
+													<div className='d-flex flex-lg-row star'>
+														<img src={star} alt='' className='custom-img-start'></img>
+														<h3 className='point'>
+															4.5
+														</h3>
+													</div>
 												</div>
 											</div>
-											<div className='box-cus ml-auto'>
-												<img src={star} alt='' className='custom-img-start'></img>
-												<h3 className='point mt-5'>
-													4.5
-												</h3>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</SwiperSlide>
+						<SwiperSlide>
+							<div className='box-comment'>
+								<div className='row'>
+									<div className='col-12'>
+										<p className='comment'>
+											Jorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.
+											Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+										</p>
+									</div>
+									<div className='col-12'>
+										<div className='box'>
+											<div className='col-md-6 col-lg-6 col-xl-2'>
+												<img src={customer} alt='' className='custom-img'></img>
+											</div>
+											<div className='col-md-6 col-lg-6 col-xl-10'>
+												<div className='customer-detail'>
+													<div className='customer mt-5'>
+														<h3 className='name'>
+															John Doe
+														</h3>
+
+														<p className='job'>
+															Youtuber
+														</p>
+													</div>
+													<div className='d-flex flex-lg-row star'>
+														<img src={star} alt='' className='custom-img-start'></img>
+														<h3 className='point'>
+															4.5
+														</h3>
+													</div>
+												</div>
 											</div>
 										</div>
-
-
 									</div>
 								</div>
 							</div>
